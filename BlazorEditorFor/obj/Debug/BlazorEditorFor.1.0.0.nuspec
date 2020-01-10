@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BlazorEditorFor</id>
+    <version>1.0.0</version>
+    <authors>Mister Magoo</authors>
+    <owners>Mister Magoo</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/SQL-MisterMagoo/BlazorTest</projectUrl>
+    <description>A Blazor Component that renders editor extensions</description>
+    <copyright>Completely Free For Non-Profit</copyright>
+    <tags>Blazor,EditorFor,Component</tags>
+    <repository url="https://github.com/SQL-MisterMagoo/BlazorTest" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="BlazorBoundComponent" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Blazor.HttpClient" version="3.0.0-preview9.19424.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netstandard2.0/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorEditorFor\bin\Debug\netstandard2.0\BlazorEditorFor.dll" target="lib\netstandard2.0\BlazorEditorFor.dll" />
+    <file src="E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorEditorFor\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorEditorFor\Properties\launchSettings.json" target="contentFiles\any\netstandard2.0\Properties\launchSettings.json" />
+  </files>
+</package>

@@ -1,0 +1,11 @@
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\bin\Debug\netstandard2.0\Properties\launchSettings.json
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\bin\Debug\netstandard2.0\BlazorBoundComponent.deps.json
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\bin\Debug\netstandard2.0\BlazorBoundComponent.dll
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\bin\Debug\netstandard2.0\BlazorBoundComponent.pdb
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\obj\Debug\netstandard2.0\staticwebassets\BlazorBoundComponent.StaticWebAssets.Manifest.cache
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\obj\Debug\netstandard2.0\staticwebassets\BlazorBoundComponent.StaticWebAssets.xml
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\obj\Debug\netstandard2.0\BlazorBoundComponent.AssemblyInfoInputs.cache
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\obj\Debug\netstandard2.0\BlazorBoundComponent.AssemblyInfo.cs
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\obj\Debug\netstandard2.0\BlazorBoundComponent.RazorTargetAssemblyInfo.cache
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\obj\Debug\netstandard2.0\BlazorBoundComponent.dll
+E:\New folder\MilicaProjekat\BlazorTestProjects\BlazorBoundComponent\obj\Debug\netstandard2.0\BlazorBoundComponent.pdb

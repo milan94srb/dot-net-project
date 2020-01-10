@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using BlazorTest.Server.Areas.Identity.Data
+@using System.Security.Claims
+@using Microsoft.Extensions.Options
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
+@inject UserManager<BlazorTestServerUser> UserManager
+
+@if (User != null)
+{
+    <a class="ml-md-auto btn btn-primary" asp-area="Identity" asp-page="/Account/Manage/Index" href="/Identity/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+    <button class="btn ml-md-auto" @onclick="Logout">Logout</button>
+}
+else
+{
+    <a class="ml-md-auto btn btn-primary" asp-area="Identity" asp-page="/Account/Register" href="/Identity/Account/Register?returnUrl=~@PathBase">Register</a>
+    <a class="ml-md-auto btn btn-primary" asp-area="Identity" href="/Identity/Account/Login?returnUrl=~@PathBase">Login</a>
+}
+
+@functions
+{
+  [Inject] private NavigationManager NavigationManager { get; set; }
+
+  ClaimsPrincipal User;
+  string PathBase;
+
+  protected override void OnInitialized()
+  {
+      base.OnInitialized();
+
+      try
+      {
+          PathBase = httpContextAccessor.HttpContext.Request.PathBase;
+          User = httpContextAccessor.HttpContext.User;
+      }
+      catch (Exception)
+      {
+      }
+  }
+  void Logout()
+  {
+      NavigationManager.NavigateTo($"/Identity/Account/Logout?returnUrl=~{PathBase}");
+  }
+}

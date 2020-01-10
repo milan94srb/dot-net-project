@@ -1,0 +1,11 @@
+﻿@code
+{
+    [Inject] private NavigationManager NavigationManager { get; set; }
+    string Titles() => NavigationManager.BaseUri.Split('?')[0].Split('/').Last();
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        NavigationManager.LocationChanged += (s, e) => StateHasChanged();
+    }
+}
+Blazor App's @Titles()
